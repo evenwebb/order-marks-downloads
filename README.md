@@ -1,20 +1,25 @@
 # Order Marks
 
-Order Marks highlights eBay UK Seller Hub orders using rules you control. It can mark orders by value, delivery cost, or repeat buyer and provides an optional bulk-selection tool.
+Highlight eBay UK Seller Hub orders by total, postage, Special Delivery or repeat buyer. Choose your rules and select orders for a bulk action.
 
 The extension works only on eBay UK Seller Hub order pages. It is an independent tool and is not affiliated with, endorsed by, or produced by eBay.
 
 ## Download
 
-The packaged Chrome extension is available in the [`downloads`](downloads/) folder. Chrome Web Store users should install the published store version once it is available.
+Download a Chrome package from [`downloads`](downloads/). For store installation, use the Chrome Web Store version after publication.
+
+The [latest Chrome package](downloads/order-marks-2.3.2-chrome.zip) includes support for the overdue, due within 24 hours and express delivery subpages under **Awaiting dispatch**. These pages use the same Awaiting dispatch setting.
+
+In **Toolbar and selection** settings, enable **Invert selection: select unmarked orders** to select orders on the current page with no highlights. The toolbar button then reads **Select unmarked**; the individual selection rule choices apply when inversion is off.
+
+You cannot select disabled eBay checkboxes or edit selection rules while inversion is on. Your saved rule choices apply again after you turn inversion off. See the [changelog](CHANGELOG.md) for release details.
 
 ## Help
 
-For help or to report a problem, read [SUPPORT.md](SUPPORT.md) or [open an issue](https://github.com/evenwebb/order-marks-downloads/issues).
+Read [SUPPORT.md](SUPPORT.md) for troubleshooting or [open an issue](https://github.com/evenwebb/order-marks-downloads/issues).
 
 Do not post customer names, addresses, order numbers, tracking numbers, or screenshots containing private information in a public issue.
 
 ## Privacy
 
-Read the [privacy policy](PRIVACY.md) for details of the information handled by the extension.
-
+Read the [privacy policy](PRIVACY.md) for details about order data and settings.
